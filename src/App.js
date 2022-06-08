@@ -1,10 +1,12 @@
-import './App.css';
+import Home from './pages/Home';
+import Navbar from './pages/shared/Navbar';
 
 function App() {
   return (
-    <div >
-      <h1 className='text-red-500' >okk</h1>
-    </div>
+    <Navbar>
+      <Home />
+
+    </Navbar>
   );
 }
 
