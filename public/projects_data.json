@@ -1,0 +1,95 @@
+[
+    {
+        "id": "1",
+        "project": "Manufacturers Of Car Part",
+        "img": "https://i.ibb.co/ft5j6bf/screencapture-manufacturers-of-car-part-firebaseapp-2022-06-10-16-08-51.png",
+        "project_desc": "This project is manufactures of car parts, Here customer order maximum quantity. user can order, manage order,and also see payment status. This app also include admin feature. admin can added product, manage product, see all use and make admin. see who payment completed status.",
+        "project_ss": [
+            "https://i.ibb.co/VpB12Lv/1654856134469.png",
+            "https://i.ibb.co/z5wX8Hq/1654856119043.png",
+            "https://i.ibb.co/X5Cqjr0/1654856091313.png"
+        ],
+        "link": {
+            "live": "https://manufacturers-of-car-part.firebaseapp.com/",
+            "client": "https://github.com/abdulahad-gh/manufacturers-of-car-part-client-side",
+            "server": "https://github.com/abdulahad-gh/manufacturers-of-car-part-server-side"
+        },
+        "tools": [
+            "tailwind",
+            "firebase",
+            "react router dom",
+            "react firebase hooks",
+            "react toastify",
+            "stripe",
+            "aos"
+        ],
+        "features": [
+            "user can order,with card payment",
+            "update profile(user,admin)",
+            "when order and payment success, notify user with email",
+            "Manage All orders",
+            "Make Admin",
+            "user payment feature"
+        ]
+    },
+    {
+        "id": "2",
+        "project": "Laptop warehouse",
+        "img": "https://i.ibb.co/mHDRMGg/Background.png",
+        "project_desc": "This is laptop warehouse project. user can added product to love list. user see total avilable product. on the other hand shop owner can, added new product, modified quantity.",
+        "project_ss": [
+            "https://i.ibb.co/fXW2qKY/1656787006296.png",
+            "https://i.ibb.co/vm4jjDw/1656786970734.png",
+            "https://i.ibb.co/2h3kVHc/1656787055915.png"
+        ],
+        "link": {
+            "live": "https://laptops-warehouse.netlify.app/",
+            "client": "https://github.com/abdulahad-gh/warehouse-management-client-side",
+            "server": "https://github.com/abdulahad-gh/warehouse-management-server-side"
+        },
+        "tools": [
+            "tailwind",
+            "firebase",
+            "react router dom",
+            "react firebase hooks",
+            "react toastify"
+        ],
+        "features": [
+            "user can order,with card payment",
+            "update profile(user,admin)",
+            "when order and payment success, notify user with email",
+            "Manage All orders",
+            "Make Admin"
+        ]
+    },
+    {
+        "id": "3",
+        "project": "Doctor Me",
+        "img": "https://i.ibb.co/j8PsPbb/doctor-me-9094b-web-app.png",
+        "project_desc": "You can see doctor info, place visiting. Contact email with doctor,get Receipt. patient can set appointment. Admin can manage doctor and user, add doctor, remove doctor. and doctor see all users appointments. patient can pay by card, and also remove appointement",
+        "project_ss": [
+            "https://i.ibb.co/yQ5jV4q/1654852784829.png",
+            "https://i.ibb.co/Lk3Lc5r/doctor-me-9094b-web-app-check-out.png",
+            "https://i.ibb.co/LYYhBWr/doctor-me-9094b-web-app-sign-up.png"
+        ],
+        "link": {
+            "live": "https://doctor-me-9094b.web.app/",
+            "client": "https://github.com/abdulahad-gh/doctor-me-client-side",
+            "server": "https://github.com/abdulahad-gh/doctor-me-server-side"
+        },
+        "tools": [
+            "bootstrap",
+            "firebase",
+            "react router dom",
+            "react firebase hooks",
+            "react toastify"
+        ],
+        "features": [
+            "private Route.",
+            "SignIn and LogIn Features",
+            "Email verify and also password reset",
+            "manage patient",
+            "patient can set appointment"
+        ]
+    }
+]
