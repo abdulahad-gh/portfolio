@@ -4,7 +4,7 @@ import { useLocation } from 'react-router-dom';
 const Footer = () => {
     const { pathname } = useLocation()
     return (
-        <div className={pathname === '/contact' ? 'mt-40' : 'mt-10'}>
+        <div className={pathname === '/contact' ? 'mt-40' : 'mt-28'}>
             <footer class="footer items-center p-4 bg-neutral text-neutral-content">
                 <div class="items-center grid-flow-col">
                     <img className='w-6 h-6 rounded' src="https://i.ibb.co/ZJ20K9K/abdulahad.png" alt="" />

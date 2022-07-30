@@ -1,9 +1,13 @@
 import React from 'react';
+import { useLocation } from 'react-router-dom';
 import PageTitle from './shared/PageTitle';
 
 const AboutMe = () => {
+    const { pathname } = useLocation()
+    // console.log(pathname == '/about');
+
     return (
-        <div className='mt-28'>
+        <div className='pt-20'>
             <PageTitle title="about me" />
 
             <section>

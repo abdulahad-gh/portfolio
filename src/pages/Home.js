@@ -25,7 +25,7 @@ const Home = () => {
                 <ParticlesBg num={50} type="cobweb" bg={true} />
 
 
-                <div id='home' class="hero w-screen h-screen bg-cover lg:bg-contain bg-no-repeat" style={{ backgroundImage: 'url(https://i.ibb.co/ZJ20K9K/abdulahad.png)', marginTop: '54px' }}>
+                <div id='home' class="hero w-screen h-screen bg-cover lg:bg-contain bg-no-repeat " style={{ backgroundImage: 'url(https://i.ibb.co/ZJ20K9K/abdulahad.png)' }}>
 
                     <div class="hero-overlay bg-opacity-70 lg:bg-opacity-40"></div>
 
@@ -45,22 +45,23 @@ const Home = () => {
                 </div>
 
             </section>
-            <section className='px-20'>
-                <h2 className='text-2xl text-center pt-20'>Skills</h2>
-                <div className='lg:flex justify-center items-center'>
-                    <div>
-                        {/* <img src="../Assets/Images/skill-portfolio-image.jpg" alt="" /> */}
-                        <img className='w-[900px]' src="https://i.ibb.co/nzKj8mz/skill-portfolio-image.jpg" alt="" />
-                    </div>
+            <section id='home#skills' className='lg:px-20 mt-10 lg:pt-20'>
+                <h2 className='text-2xl text-center'>Skills</h2>
+                <div className='lg:flex lg:flex-row-reverse gap-4 justify-center items-center pt-6'>
+
                     <div>
                         {/* <img src="../Assets/Images/skills.png" alt="" /> */}
-                        <img className='grow-0 ' src="https://i.ibb.co/hLRxs5M/skills.png" alt="" />
+                        <img className='' src="https://i.ibb.co/hLRxs5M/skills.png" alt="" />
+                    </div>
+                    <div >
+                        {/* <img className='w-[900px] rounded-md' src="../Assets/Images/skill-portfolio-image.jpg" alt="" /> */}
+                        <img className='p-2 lg:p-0 w-[900px] rounded-xl md:rounded-md' src="https://i.ibb.co/nzKj8mz/skill-portfolio-image.jpg" alt="" />
                     </div>
                 </div>
             </section>
 
-            <section id='home#projects' className='px-2 lg:px-20  mb-10 '>
-                <h2 className='text-2xl text-center pt-20'>Projects</h2>
+            <section className='px-2 lg:px-20  mb-10 '>
+                <h2 id='home#projects' className='text-2xl text-center pt-20'>Projects</h2>
                 <div className='grid grid-cols-1  lg:grid-cols-3 gap-4 mt-10 '>
 
                     {projects.map(project => <div class="flex flex-col lg:flex-row card-compact bg-base-100 shadow-xl rounded-lg items-center">
