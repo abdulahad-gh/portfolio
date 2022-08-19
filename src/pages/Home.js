@@ -21,7 +21,9 @@ const Home = () => {
     return (
         <>
             <section className='overflow-hidden '>
-                <PageTitle title="Home" />
+                <PageTitle title="Home" content="web developer or react developer abdul ahad"
+                    linksrc='/home'
+                />
                 <ParticlesBg num={50} type="cobweb" bg={true} />
 
 

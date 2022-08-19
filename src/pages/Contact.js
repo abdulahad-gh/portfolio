@@ -31,11 +31,10 @@ const Contact = () => {
         e.target.reset()
 
     };
-    const { pathname } = useLocation()
     return (
         <div className=' px-2 h-screen flex items-center justify-center'>
             <div>
-                <PageTitle title="contact me" />
+                <PageTitle title="contact me" content="contact with web developer or react developer abdul ahad" linksrc='/contact' />
 
                 <h2 className='text-2xl text-center '>Contact Me </h2>
 

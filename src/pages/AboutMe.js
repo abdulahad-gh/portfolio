@@ -7,7 +7,7 @@ const AboutMe = () => {
 
     return (
         <div className='pt-20'>
-            <PageTitle title="about me" />
+            <PageTitle title="about me" content="about me of web developer or react developer abdul ahad" linksrc='/about' />
 
             <section>
                 <div className='flex flex-col md:flex-row justify-evenly items-center'>

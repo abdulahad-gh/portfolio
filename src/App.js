@@ -21,9 +21,9 @@ function App() {
         <Route path='/home' element={<Home />} />
         {/* <Route path='projects' element={<Projects />} /> */}
         <Route path='project/:id' element={<ProjectDetails />} />
-        <Route path='about' element={<AboutMe />} />
-        <Route path='contact' element={<Contact />} />
-        <Route path='blog' element={<Blog />} />
+        <Route path='/about' element={<AboutMe />} />
+        <Route path='/contact' element={<Contact />} />
+        <Route path='/blog' element={<Blog />} />
         <Route path='*' element={<PageNotFound />} />
       </Routes>
 
