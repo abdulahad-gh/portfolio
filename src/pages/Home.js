@@ -34,10 +34,10 @@ const Home = () => {
                             <div className='lg:max-w-lg'>
                                 <h1 class=" text-2xl lg:text-5xl font-bold">I'm <span className='text-sky-500'>Abdul Ahad</span> </h1>
                                 <h1 class="mb-5 text-2xl lg:text-3xl font-bold ">Full Stack Web Developer</h1>
-                                <p class="mb-5">I Have 1-year of experiences Web Development sector. I learned many cores and modern things of teck from google and youtube, and also completed the course of programming hero.</p>
+                                <p class="mb-5">I Have 1-year of experiences Web Development sector. I learned many cores and modern things of teck from google and youtube, and also completed the course of <strong>programming hero</strong>.</p>
                             </div>
                             <div className='flex justify-center gap-2 max-w-40'>
-                                <a href='https://drive.google.com/file/d/1Fm5Cl5D6R4HnhSaxsjgmk1MVPi3pxItG/view' class="btn border-0 bg-sky-600" target="_blank" rel='noreferrer'>See Resume</a>
+                                <a href='https://drive.google.com/file/d/1V5l-dIVVhxce0pOlp9-gdFoED7FX-PtF/view?usp=sharing' class="btn border-0 bg-sky-600" target="_blank" rel='noreferrer'>See Resume</a>
                                 <a target="_blank" rel='noreferrer' href='https://www.linkedin.com/in/md-abdul-ahad-a52245230/' type='tel' class="btn btn-primary">Hire Quickly</a>
                             </div>
                         </div>

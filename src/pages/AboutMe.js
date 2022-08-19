@@ -1,10 +1,9 @@
 import React from 'react';
-import { useLocation } from 'react-router-dom';
+
 import PageTitle from './shared/PageTitle';
 
 const AboutMe = () => {
-    const { pathname } = useLocation()
-    // console.log(pathname == '/about');
+
 
     return (
         <div className='pt-20'>
@@ -100,10 +99,10 @@ const AboutMe = () => {
                             <p className='font-semibold mt-2'>Social Links</p>
                             <div>
                                 <div class="flex gap-4">
-                                    <a href='https://www.linkedin.com/in/md-abdul-ahad-web-developer' target="_blank"><i class="fa-brands fa-linkedin"></i>
+                                    <a href='https://www.linkedin.com/in/md-abdul-ahad-web-developer' target="_blank" rel='noreferrer'><i class="fa-brands fa-linkedin"></i>
                                     </a>
-                                    <a href='https://github.com/abdulahad-gh' target="_blank"><i class="fa-brands fa-github" ></i></a>
-                                    <a href='https://web.facebook.com/AbdulAhad.Messenger/' target="_blank"><i class="fa-brands fa-facebook" ></i></a>
+                                    <a href='https://github.com/abdulahad-gh' target="_blank" rel='noreferrer'><i class="fa-brands fa-github" ></i></a>
+                                    <a href='https://web.facebook.com/AbdulAhad.Messenger/' target="_blank" rel='noreferrer'><i class="fa-brands fa-facebook" ></i></a>
                                 </div>
                             </div>
 

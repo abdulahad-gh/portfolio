@@ -25,31 +25,31 @@ const ProjectDetails = () => {
         return <Spinner />
     }
     return (
-        <div className='flex lg:h-screen flex-col items-center justify-center mt-36 lg:flex-row gap-4 px-2 lg:px-40'>
-            <div class="carousel w-full ">
+        <section className='flex lg:h-screen flex-col items-center justify-center lg:flex-row gap-4 px-2 lg:px-40 '>
+            <div class="carousel w-full mt-20">
                 <div id="slide1" class="carousel-item relative w-full">
-                    <img src={project?.project_ss[0]} class="w-full" />
+                    <img src={project?.project_ss[0]} class="w-full" alt='slide1' />
                     <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                         <a href="#slide4" class="btn btn-circle">❮</a>
                         <a href="#slide2" class="btn btn-circle">❯</a>
                     </div>
                 </div>
                 <div id="slide2" class="carousel-item relative w-full">
-                    <img src={project?.project_ss[1]} class="w-full" />
+                    <img src={project?.project_ss[1]} class="w-full" alt='slide2' />
                     <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                         <a href="#slide1" class="btn btn-circle">❮</a>
                         <a href="#slide3" class="btn btn-circle">❯</a>
                     </div>
                 </div>
                 <div id="slide3" class="carousel-item relative w-full">
-                    <img src={project?.project_ss[2]} class="w-full" />
+                    <img src={project?.project_ss[2]} class="w-full" alt='slide3' />
                     <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                         <a href="#slide2" class="btn btn-circle">❮</a>
                         <a href="#slide4" class="btn btn-circle">❯</a>
                     </div>
                 </div>
             </div>
-            <div className='max-w-80 lg:pl-28'>
+            <div className='max-w-80 lg:pl-28 lg:mt-20'>
                 <div class="card lg:max-w-lg bg-base-100 shadow-xl px-2 lg:px-5">
                     <div class="">
                         <h2 class="card-title">{project.project}</h2>
@@ -65,16 +65,16 @@ const ProjectDetails = () => {
                         <div className='flex flex-wrap gap-2 mt-4'>
                             <a target='_blank' rel='noreferrer' href={project.link.live} className='btn btn-xs' >Live Site</a>
 
-                            <a target='_blank' rel='noreferrer' href={project.link.client} className='btn btn-xs' >Client Site</a>
+                            <a target='_blank' rel='noreferrer' href={project.link.client} className='btn btn-xs' >Client Side</a>
 
-                            <a target='_blank' rel='noreferrer' href={project.link.server} className='btn btn-xs' >Server Site</a>
+                            <a target='_blank' rel='noreferrer' href={project.link.server} className='btn btn-xs' >Server Side</a>
 
                         </div>
                         <p className='text-xl mt-4 '>Owener</p>
                         <div className='flex gap-2 p-4 items-center'>
                             <div class="avatar">
                                 <div class="w-10 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
-                                    <img src="https://i.ibb.co/ZJ20K9K/abdulahad.png" />
+                                    <img src="https://i.ibb.co/ZJ20K9K/abdulahad.png" alt='owener-img' />
                                 </div>
                             </div>
                             <div>Abdul Ahad</div>
@@ -83,7 +83,7 @@ const ProjectDetails = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
 
     );
 };
