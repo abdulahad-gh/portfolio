@@ -10,9 +10,9 @@
             "https://i.ibb.co/X5Cqjr0/1654856091313.png"
         ],
         "link": {
-            "live": "https://manufacturers-of-car-part.firebaseapp.com/",
+            "live": "https://manufacturers-car-part.firebaseapp.com/",
             "client": "https://github.com/abdulahad-gh/manufacturers-of-car-part-client-side",
-            "server": "https://github.com/abdulahad-gh/manufacturers-of-car-part-server-side"
+            "server": "https://github.com/abdulahad-gh/manufacturers-of-car-part-server.git"
         },
         "tools": [
             "tailwind",

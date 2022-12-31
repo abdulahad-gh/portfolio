@@ -27,7 +27,7 @@ const Home = () => {
                 <ParticlesBg num={50} type="cobweb" bg={true} />
 
 
-                <div id='home' class="hero w-screen h-screen bg-cover lg:bg-contain bg-no-repeat " style={{ backgroundImage: 'url(https://i.ibb.co/ZJ20K9K/abdulahad.png)' }}>
+                <div id='home' class="hero w-screen h-screen bg-cover lg:bg-contain bg-no-repeat mt-16 " style={{ backgroundImage: 'url(https://i.ibb.co/ZJ20K9K/abdulahad.png)' }}>
 
                     <div class="hero-overlay bg-opacity-70 lg:bg-opacity-40"></div>
 
@@ -39,7 +39,7 @@ const Home = () => {
                                 <p class="mb-5">I Have 1-year of experiences Web Development sector. I learned many cores and modern things of teck from google and youtube, and also completed the course of <strong>programming hero</strong>.</p>
                             </div>
                             <div className='flex justify-center gap-2 max-w-40'>
-                                <a href='https://drive.google.com/file/d/1V5l-dIVVhxce0pOlp9-gdFoED7FX-PtF/view?usp=sharing' class="btn border-0 bg-sky-600" target="_blank" rel='noreferrer'>See Resume</a>
+                                <a href='https://drive.google.com/file/d/1XdKEN92cwiZcvhHQtQdMOkJmY6tiqKIk/view?usp=sharing' class="btn border-0 bg-sky-600" target="_blank" rel='noreferrer'>See Resume</a>
                                 <a target="_blank" rel='noreferrer' href='https://www.linkedin.com/in/md-abdul-ahad-a52245230/' type='tel' class="btn btn-primary">Hire Quickly</a>
                             </div>
                         </div>
